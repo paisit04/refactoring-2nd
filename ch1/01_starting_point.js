@@ -46,3 +46,5 @@ function statement(invoice, plays) {
 // Run the code
 const result = statement(invoices[0], plays);
 console.log(result);
+
+module.exports = statement;
