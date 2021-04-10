@@ -60,7 +60,8 @@ function statement(invoice, plays) {
     totalAmount += amountFor(perf);
   }
   result += `Amount owed is ${usd(totalAmount / 100)} \n`;
-  result += `You earned ${volumeCredits} credits\n`; return result;
+  result += `You earned ${volumeCredits} credits\n`;
+  return result;
 }
 
 // Run the code
